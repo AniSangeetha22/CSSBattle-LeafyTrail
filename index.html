@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+   .parent {
+    width: 120px;
+    height: 120px;
+    background-color:#0B2429 ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+   }
+
+   .leafe1,
+   .leafe2,
+   .leafe3 {
+     width: 45px;
+     height: 45px;
+     border-radius: 60% 0 60% 0;
+     position: absolute;
+     
+   }
+   .leafe1 {
+    background-color: #1A4341;
+    transform: translate(-15px,-15px);
+   }
+
+   
+
+    .leafe2 {
+    background-color: #998235;
+    transform: translate(0px,-15px);
+    
+   }
+   .leafe3 {
+    background-color: #F3AC3C;
+    transform: translate(15px,-15px);
+   }
+  
+
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="leafe1"></div>
+        <div class="leafe2"></div>
+        <div class="leafe3"></div>
+    </div>
+</body>
+</html>
